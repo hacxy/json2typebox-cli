@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "tsup --watch --sourcemap",
     "build": "tsup",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "release": "dotenv release-it"
   },
   "keywords": [
     "cli"
@@ -24,9 +25,11 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.1.1",
+    "@release-it/conventional-changelog": "^9.0.1",
     "@types/node": "^20.12.5",
     "eslint": "^8.57.0",
     "globals": "^15.0.0",
+    "release-it": "^17.10.0",
     "tsup": "^8.0.2",
     "typescript": "^5.4.4",
     "typescript-eslint": "^7.7.1"
