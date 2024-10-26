@@ -18,9 +18,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@sinclair/typebox-codegen": "^0.10.5",
     "clipboardy": "^4.0.0",
-    "json-to-ts": "^2.1.0",
+    "json2typebox": "^0.0.2",
     "log-symbols": "^7.0.0"
   },
   "devDependencies": {
