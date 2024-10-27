@@ -12,8 +12,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       json2typebox:
-        specifier: ^0.0.2
-        version: 0.0.2
+        specifier: ^0.0.3
+        version: 0.0.3
       log-symbols:
         specifier: ^7.0.0
         version: 7.0.0
@@ -1364,8 +1364,8 @@ packages:
   json-stable-stringify-without-jsonify@1.0.1:
     resolution: {integrity: sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==}
 
-  json2typebox@0.0.2:
-    resolution: {integrity: sha512-YeSM4EmvzArL/7MehE4/E/xx79gSua6SyqGiSfJ5DLxk4qyFrK+ojx6iRJYbJ/Xz3M+jg2uwQd4+fSLW2yIWEQ==}
+  json2typebox@0.0.3:
+    resolution: {integrity: sha512-Fn4Jr+hVuVsxFZKLJsRWqajO1p+tJ8waztsT1Z2I0COfJiG15eXkckv6QZUS2jhp56VH075gOB+UvJ80DckMSw==}
 
   jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
@@ -3456,7 +3456,7 @@ snapshots:
 
   json-stable-stringify-without-jsonify@1.0.1: {}
 
-  json2typebox@0.0.2:
+  json2typebox@0.0.3:
     dependencies:
       '@sinclair/typebox-codegen': 0.10.5
 

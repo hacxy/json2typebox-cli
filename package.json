@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "clipboardy": "^4.0.0",
-    "json2typebox": "^0.0.2",
+    "json2typebox": "^0.0.3",
     "log-symbols": "^7.0.0"
   },
   "devDependencies": {
