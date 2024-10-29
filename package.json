@@ -4,20 +4,25 @@
   "description": "",
   "type": "module",
   "bin": {
-    "json2typebox": "dist/index.js"
+    "json2typebox": "./index.js",
+    "jtt": "./index.js"
   },
   "scripts": {
-    "dev": "tsup --watch --sourcemap",
-    "build": "tsup",
+    "start": "node dist/index.mjs",
+    "dev": "unbuild --stub",
+    "build": "unbuild",
     "typecheck": "tsc --noEmit",
     "release": "dotenv release-it"
   },
   "keywords": [
+    "json2typebox",
+    "json2typebox-cli",
     "cli"
   ],
-  "author": "",
+  "author": "hacxy",
   "license": "MIT",
   "dependencies": {
+    "cac": "^6.7.14",
     "clipboardy": "^4.0.0",
     "json2typebox": "^0.0.3",
     "log-symbols": "^7.0.0"
@@ -25,13 +30,13 @@
   "devDependencies": {
     "@eslint/js": "^9.1.1",
     "@release-it/conventional-changelog": "^9.0.1",
-    "@types/node": "^20.12.5",
+    "@types/node": "^20.17.0",
     "dotenv-cli": "^7.4.2",
     "eslint": "^8.57.0",
     "globals": "^15.0.0",
     "release-it": "^17.10.0",
-    "tsup": "^8.0.2",
     "typescript": "^5.4.4",
-    "typescript-eslint": "^7.7.1"
+    "typescript-eslint": "^7.7.1",
+    "unbuild": "^2.0.0"
   }
 }
