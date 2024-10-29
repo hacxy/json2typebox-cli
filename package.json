@@ -1,6 +1,6 @@
 {
   "name": "json2typebox-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Json to typebox schemas cli.",
   "type": "module",
   "files": [

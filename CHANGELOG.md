@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.0.5](https://github.com/hacxy/json2typebox-cli/compare/v0.0.4...v0.0.5) (2024-10-29)
+
+### Bug Fixes | Bug 修复
+
+* Fix the problem of missing executable files ([3b6636c](https://github.com/hacxy/json2typebox-cli/commit/3b6636c63de32fffb5ac4b0efed13b6835354868))
+
 ## [0.0.4](https://github.com/hacxy/json2typebox-cli/compare/v0.0.3...v0.0.4) (2024-10-29)
 
 ### Features | 新功能
