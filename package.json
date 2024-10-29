@@ -1,8 +1,11 @@
 {
   "name": "json2typebox-cli",
   "version": "0.0.4",
-  "description": "",
+  "description": "Json to typebox schemas cli.",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "bin": {
     "json2typebox": "./index.js",
     "jtt": "./index.js"
@@ -19,7 +22,15 @@
     "json2typebox-cli",
     "cli"
   ],
-  "author": "hacxy",
+  "author": {
+    "name": "hacxy",
+    "email": "hacxy.js@outlook.com",
+    "url": "https://github.com/hacxy"
+  },
+  "homepage": "https://github.com/hacxy/json2typebox-cli#readme",
+  "bugs": {
+    "url": "https://github.com/hacxy/json2typebox-cli/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "cac": "^6.7.14",
