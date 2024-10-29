@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.0.4](https://github.com/hacxy/json2typebox-cli/compare/v0.0.3...v0.0.4) (2024-10-29)
+
+### Features | 新功能
+
+* Support conversion ts type ([998295a](https://github.com/hacxy/json2typebox-cli/commit/998295a1c837d5f8b85d919f6ffc681d6412af4c))
+
 ## [0.0.3](https://github.com/hacxy/json2typebox-cli/compare/0.0.2...v0.0.3) (2024-10-27)
 
 ### Bug Fixes | Bug 修复
