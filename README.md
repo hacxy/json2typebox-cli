@@ -1,6 +1,6 @@
 # Json2Typebox CLI
 
-This is the command line tool for [json2typebox](https://github.com/hacxy/json2typebox), used to convert json files to typebox type definitions.
+This is the command line tool for [json2typebox](https://github.com/hacxy/json2typebox), used to convert json files to [typebox](https://github.com/sinclairzx81/typebox) type definitions.
 
 ## Installation
 
