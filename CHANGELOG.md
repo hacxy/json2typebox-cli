@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.0](https://github.com/hacxy/json2typebox-cli/compare/v0.0.5...v0.1.0) (2024-10-30)
+
+### Bug Fixes | Bug 修复
+
+* Adjust the command name ([6fbae75](https://github.com/hacxy/json2typebox-cli/commit/6fbae7567e9f651da37dcb0e71e3447832a9d7d4))
+
 ## [0.0.5](https://github.com/hacxy/json2typebox-cli/compare/v0.0.4...v0.0.5) (2024-10-29)
 
 ### Bug Fixes | Bug 修复
