@@ -5,7 +5,7 @@ This is the command line tool for [json2typebox](https://github.com/hacxy/json2t
 ## Installation
 
 ```bash
-npm install -g json2typebox
+npm install -g json2typebox-cli
 ```
 
 ## Usage
