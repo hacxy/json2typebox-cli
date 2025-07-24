@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { cac } from 'cac';
 import clipboard from 'clipboardy';
-import { json2typebox } from 'json2typebox';
+import json2typebox from 'json2typebox';
 import logSymbols from 'log-symbols';
 import projectInfo from '../package.json';
 
