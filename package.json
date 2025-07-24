@@ -1,7 +1,7 @@
 {
   "name": "json2typebox-cli",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Json to typebox schemas cli.",
   "author": {
     "name": "hacxy",
@@ -38,7 +38,7 @@
   "dependencies": {
     "cac": "^6.7.14",
     "clipboardy": "^4.0.0",
-    "json2typebox": "^0.0.3",
+    "json2typebox": "^0.1.1",
     "log-symbols": "^7.0.0"
   },
   "devDependencies": {
