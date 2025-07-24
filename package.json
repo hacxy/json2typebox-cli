@@ -1,37 +1,40 @@
 {
   "name": "json2typebox-cli",
+  "type": "module",
   "version": "0.1.0",
   "description": "Json to typebox schemas cli.",
-  "type": "module",
-  "files": [
-    "dist"
-  ],
-  "bin": {
-    "json2typebox": "./index.js",
-    "jtt": "./index.js"
+  "author": {
+    "name": "hacxy",
+    "email": "hacxy.js@outlook.com",
+    "url": "https://github.com/hacxy"
   },
-  "scripts": {
-    "start": "node dist/index.mjs",
-    "dev": "unbuild --stub",
-    "build": "unbuild",
-    "typecheck": "tsc --noEmit",
-    "release": "dotenv release-it"
+  "license": "MIT",
+  "homepage": "https://github.com/hacxy/json2typebox-cli#readme",
+  "bugs": {
+    "url": "https://github.com/hacxy/json2typebox-cli/issues"
   },
   "keywords": [
     "json2typebox",
     "json2typebox-cli",
     "cli"
   ],
-  "author": {
-    "name": "hacxy",
-    "email": "hacxy.js@outlook.com",
-    "url": "https://github.com/hacxy"
+  "bin": {
+    "json2typebox": "./index.js",
+    "jtt": "./index.js"
   },
-  "homepage": "https://github.com/hacxy/json2typebox-cli#readme",
-  "bugs": {
-    "url": "https://github.com/hacxy/json2typebox-cli/issues"
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "node dist/index.mjs",
+    "dev": "unbuild --stub",
+    "build": "unbuild",
+    "typecheck": "tsc --noEmit",
+    "release": "bump",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint:staged": "eslint --fix"
   },
-  "license": "MIT",
   "dependencies": {
     "cac": "^6.7.14",
     "clipboardy": "^4.0.0",
@@ -39,15 +42,22 @@
     "log-symbols": "^7.0.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.1.1",
-    "@release-it/conventional-changelog": "^9.0.1",
+    "@hacxy/bump": "^0.1.0",
+    "@hacxy/eslint-config": "^0.4.1",
     "@types/node": "^20.17.0",
-    "dotenv-cli": "^7.4.2",
     "eslint": "^8.57.0",
-    "globals": "^15.0.0",
-    "release-it": "^17.10.0",
+    "lint-staged": "^16.1.2",
+    "simple-git-hooks": "^2.13.0",
     "typescript": "^5.4.4",
-    "typescript-eslint": "^7.7.1",
     "unbuild": "^2.0.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged",
+    "commit-msg": "node scripts/commit-msg.mjs"
+  },
+  "lint-staged": {
+    "*": [
+      "npm run lint:staged"
+    ]
   }
 }
